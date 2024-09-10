@@ -56,6 +56,7 @@ Per `content.md`, your student is comprised of the following information:
 * Author the DTD on your own; no help from WebStorm.
 * Style your XML using CSS so it’s easy to read in the browser.
 * Expose any XML attributes to the front end using CSS’s [`content`](https://developer.mozilla.org/en-US/docs/Web/CSS/content) property and [`attr()`](https://developer.mozilla.org/en-US/docs/Web/CSS/attr) function.
+* Use the [XML Language Support by Red Hat extension for VS Code](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml), extension ID `redhat.vscode-xml`, to validate your XML with your DTD.
 
 ### JSON
 
