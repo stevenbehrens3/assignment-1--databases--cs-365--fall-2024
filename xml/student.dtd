@@ -9,24 +9,24 @@
   <!--School info element which is made up of id, gpa, major, minor, advisor, enrollment date, and graduation date -->
 <!ELEMENT school_info (id, gpa, major+, minor, advisor, enrollment_date, grad_date)>
 
-<!--All elements consisting of parsed character data -->
-<!ELEMENT first_name (#PCDATA)>
-<!ELEMENT middle_name (#PCDATA)>
-<!ELEMENT last_name (#PCDATA)>
-<!ELEMENT perf_name (#PCDATA)>
-<!ELEMENT id (#PCDATA)>
-<!ELEMENT email (#PCDATA)>
-<!ELEMENT phone (#PCDATA)>
-<!ELEMENT gpa (#PCDATA)>
-<!ELEMENT major (#PCDATA)>
-<!ELEMENT minor (#PCDATA)>
-<!ELEMENT advisor (#PCDATA)>
-<!ELEMENT enrollment_date (#PCDATA)>
-<!ELEMENT grad_date (#PCDATA)>
+<!ELEMENT first_name      (#PCDATA)>    <!--first_name contains parsed character data -->
+<!ELEMENT middle_name     (#PCDATA)>    <!--middle_name contains parsed character data -->
+<!ELEMENT last_name       (#PCDATA)>    <!--last_name contains parsed character data -->
+<!ELEMENT perf_name       (#PCDATA)>    <!--perf_name contains parsed character data -->
+<!ELEMENT id              (#PCDATA)>    <!--id contains parsed character data -->
+<!ELEMENT email           (#PCDATA)>    <!--email contains parsed character data -->
+<!ELEMENT phone           (#PCDATA)>    <!--phone contains parsed character data -->
+<!ELEMENT gpa             (#PCDATA)>    <!--gpa contains parsed character data -->
+<!ELEMENT major           (#PCDATA)>    <!--major contains parsed character data -->
+<!ELEMENT minor           (#PCDATA)>    <!--minor contains parsed character data -->
+<!ELEMENT advisor         (#PCDATA)>    <!--advisor contains parsed character data -->
+<!ELEMENT enrollment_date (#PCDATA)>    <!--enrollment_date contains parsed character data -->
+<!ELEMENT grad_date       (#PCDATA)>    <!--grad_date contains parsed character data -->
 
-<!--Attributes year and status are made to be attributes so that there could only be 4/5 options to choose from -->
+<!--Attribute 'year' was made to be an attribute so that there could only be certain options to choose from -->
 <!ATTLIST school_info
               year (First-Year|Second-Year|Third-Year|Fourth-Year|Other) #REQUIRED>
+  <!--Attribute 'status' was made to be an attribute so that there could only be certain options to choose from -->
 <!ATTLIST school_info
               status (Full-Time|Part-Time|Graduated|Withdrawn) #REQUIRED>
 <!--Student attribute 'index' that will give each student a place in the catalog -->
