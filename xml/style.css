@@ -24,3 +24,29 @@ student::before {
   display: block;
   margin-bottom: 12px;
 }
+
+name::before {
+  content: 'Full Name: ';
+  font-weight: bold;
+  display: block;
+}
+
+name first_name::after {
+  content: ' ';
+}
+
+name middle_name::after {
+  content: ' ';
+}
+
+name perf_name::before {
+  content: 'Preffered Name: ';
+}
+
+name perf_name::after {
+  content: ' ';
+}
+
+name {
+  margin: 12px 0;
+}
