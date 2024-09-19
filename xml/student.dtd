@@ -1,0 +1,5 @@
+<!ELEMENT student_catalog (student)+>
+<!ELEMENT student (name, contact, school_info)>
+<!ELEMENT name (first_name, middle_name, last_name, perf_name)>
+<!ELEMENT contact (email, phone)>
+<!ELEMENT school_info (id, year, gpa, major, minor, status, advisor, enrollment_date, grad_date)>
