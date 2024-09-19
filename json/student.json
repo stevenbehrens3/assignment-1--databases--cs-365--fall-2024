@@ -27,3 +27,28 @@
       }
     },
     {
+      "student": {
+        "index": "1",
+        "name": {
+          "first_name": "Kim",
+          "middle_name": "",
+          "last_name": "Thayil",
+          "perf_name": ""
+        },
+        "contact": {
+          "email": "kim@soundgarden.com",
+          "phone": "206.123.4567"
+        },
+        "school_info": {
+          "id": "4567890",
+          "gpa": "3.0",
+          "major": ["Philosophy"],
+          "minor": "Music",
+          "advisor": "Chris Cornell",
+          "enrollment_date": "08-25-1978",
+          "grad_date": "05-01-1982",
+          "year": "Second-Year",
+          "status": "Full-Time"
+        }
+      }
+    },
