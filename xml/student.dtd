@@ -1,10 +1,15 @@
+<!-- The root element which is made up of one or more students -->
 <!ELEMENT student_catalog (student)+>
-
+<!--Student element which is made up of name, contact, and school info -->
 <!ELEMENT student (name, contact, school_info)>
+  <!--Name element which is made up of first, middle, last, and preferred name -->
 <!ELEMENT name (first_name, middle_name, last_name, perf_name)>
+  <!--Contact element which is made up of an email address and a phone number -->
 <!ELEMENT contact (email, phone)>
+  <!--School info element which is made up of id, gpa, major, minor, advisor, enrollment date, and graduation date -->
 <!ELEMENT school_info (id, gpa, major+, minor, advisor, enrollment_date, grad_date)>
 
+<!--All elements consisting of parsed character data -->
 <!ELEMENT first_name (#PCDATA)>
 <!ELEMENT middle_name (#PCDATA)>
 <!ELEMENT last_name (#PCDATA)>
@@ -19,9 +24,11 @@
 <!ELEMENT enrollment_date (#PCDATA)>
 <!ELEMENT grad_date (#PCDATA)>
 
+<!--Attributes year and status are made to be attributes so that there could only be 4/5 options to choose from -->
 <!ATTLIST school_info
               year (First-Year|Second-Year|Third-Year|Fourth-Year|Other) #REQUIRED>
 <!ATTLIST school_info
               status (Full-Time|Part-Time|Graduated|Withdrawn) #REQUIRED>
+<!--Student attribute 'index' that will give each student a place in the catalog -->
 <!ATTLIST student
               index CDATA #REQUIRED>
