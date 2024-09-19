@@ -26,7 +26,7 @@ student::before {
 }
 
 name::before {
-  content: 'Full Name: ';
+  content: 'Name: ';
   font-weight: bold;
   display: block;
 }
@@ -49,4 +49,24 @@ name perf_name::after {
 
 name {
   margin: 12px 0;
+}
+
+contact::before {
+  content: 'Contact Info: ';
+  font-weight: bold;
+  display: block;
+}
+
+contact email::before {
+  content: 'Email: ';
+}
+
+contact phone::before {
+  content: 'Phone Number: ';
+}
+
+email, phone {
+  display: block;
+  margin-left: 20px;
+  margin-top: 5px;
 }
