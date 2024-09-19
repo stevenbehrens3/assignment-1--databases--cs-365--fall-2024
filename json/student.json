@@ -1,0 +1,29 @@
+{
+  "student_catalog": [
+    {
+      "student": {
+        "index": "0",
+        "name": {
+          "first_name": "Gordon",
+          "middle_name": "Matthew",
+          "last_name": "Sumner",
+          "perf_name": "Sting"
+        },
+        "contact": {
+          "email": "sting@thepolice.com",
+          "phone": "212.123.4567"
+        },
+        "school_info": {
+          "id": "1234567",
+          "gpa": "4.0",
+          "major": "Music",
+          "minor": "English",
+          "advisor": "Andy Summers",
+          "enrollment_date": "08-25-1969",
+          "grad_date": "05-01-1973",
+          "year": "First-Year",
+          "status": "Full-Time"
+        }
+      }
+    },
+    {
