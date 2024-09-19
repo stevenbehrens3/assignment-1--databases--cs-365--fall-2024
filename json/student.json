@@ -78,4 +78,57 @@
         }
       }
     },
-    
+    {
+      "student": {
+        "index": "3",
+        "name": {
+          "first_name": "Emily",
+          "middle_name": "",
+          "last_name": "Kokal",
+          "perf_name": ""
+        },
+        "contact": {
+          "email": "emily@warpaint.com",
+          "phone": "213.123.7654"
+        },
+        "school_info": {
+          "id": "2983928",
+          "gpa": "3.8",
+          "major": "Political Science",
+          "minor": "Law",
+          "advisor": "Jenny Lee Lindberg",
+          "enrollment_date": "08-25-1998",
+          "grad_date": "05-01-2002",
+          "year": "Third-Year",
+          "status": "Full-Time"
+        }
+      }
+    },
+    {
+      "student": {
+        "index": "4",
+        "name": {
+          "first_name": "Mike",
+          "middle_name": "",
+          "last_name": "Inez",
+          "perf_name": ""
+        },
+        "contact": {
+          "email": "mike@aic.com",
+          "phone": "213.444.3323"
+        },
+        "school_info": {
+          "id": "7645726",
+          "gpa": "4.0",
+          "major": "Business Management",
+          "minor": "Math",
+          "advisor": "Jerry Cantrell",
+          "enrollment_date": "08-25-1984",
+          "grad_date": "05-01-1988",
+          "year": "Second-Year",
+          "status": "Full-Time"
+        }
+      }
+    }
+  ]
+}
