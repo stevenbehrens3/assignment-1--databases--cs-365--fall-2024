@@ -52,3 +52,30 @@
         }
       }
     },
+    {
+      "student": {
+        "index": "2",
+        "name": {
+          "first_name": "Saul",
+          "middle_name": "",
+          "last_name": "Hudson",
+          "perf_name": "Slash"
+        },
+        "contact": {
+          "email": "slash@gnr.com",
+          "phone": "213.456.8392"
+        },
+        "school_info": {
+          "id": "8302438",
+          "gpa": "2.0",
+          "major": ["Music"],
+          "minor": "Criminal Justice",
+          "advisor": "Axl Rose",
+          "enrollment_date": "08-25-1983",
+          "grad_date": "05-01-1987",
+          "year": "Fourth-Year",
+          "status": "Part-Time"
+        }
+      }
+    },
+    
