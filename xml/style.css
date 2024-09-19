@@ -53,8 +53,9 @@ name perf_name::after {
   display: block;
 }
 
-name {
+first_name, perf_name {
   margin: 12px 0;
+  margin-left: 20px;
 }
 
 contact::before {
