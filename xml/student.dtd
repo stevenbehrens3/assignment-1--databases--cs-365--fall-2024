@@ -14,7 +14,6 @@
 <!ELEMENT phone (#PCDATA)>
 <!ELEMENT gpa (#PCDATA)>
 <!ELEMENT major (#PCDATA)>
-<!ELEMENT status (#PCDATA)>
 <!ELEMENT minor (#PCDATA)>
 <!ELEMENT advisor (#PCDATA)>
 <!ELEMENT enrollment_date (#PCDATA)>
