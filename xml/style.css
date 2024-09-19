@@ -3,3 +3,11 @@
   width: 1200px;
   font-family: 'Nunito Sans', serif;
 }
+
+:root::before {
+  content: 'Student Catalog';
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 24px 0;
+  display: block;
+}
