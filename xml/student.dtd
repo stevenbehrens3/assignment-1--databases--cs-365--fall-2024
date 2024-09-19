@@ -1,5 +1,22 @@
 <!ELEMENT student_catalog (student)+>
+
 <!ELEMENT student (name, contact, school_info)>
 <!ELEMENT name (first_name, middle_name, last_name, perf_name)>
 <!ELEMENT contact (email, phone)>
 <!ELEMENT school_info (id, year, gpa, major, minor, status, advisor, enrollment_date, grad_date)>
+
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT middle_name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT perf_name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT gpa (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT minor (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT advisor (#PCDATA)>
+<!ELEMENT enrollment_date (#PCDATA)>
+<!ELEMENT grad_date (#PCDATA)>
