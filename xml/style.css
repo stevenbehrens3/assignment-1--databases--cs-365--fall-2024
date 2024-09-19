@@ -11,3 +11,16 @@
   margin: 24px 0;
   display: block;
 }
+
+student{
+  margin: 24px 0;
+  padding: 16px;
+}
+
+student::before {
+  content: attr(index) " - " attr(name) " " attr(last_name);
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 12px;
+}
