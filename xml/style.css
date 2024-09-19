@@ -70,3 +70,55 @@ email, phone {
   margin-left: 20px;
   margin-top: 5px;
 }
+
+school_info::before {
+  content: 'Student Information: ';
+  font-weight: bold;
+  display: block;
+}
+
+school_info major::before {
+  content: 'Major: ';
+}
+
+school_info minor::before {
+  content: 'Minor: ';
+}
+
+school_info advisor::before {
+  content: 'Advisor: ';
+}
+
+school_info id::before {
+  content: 'ID: ';
+}
+
+major, minor, advisor, id {
+  display: block;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+school_info::after {
+  content: 'Academic Information: ';
+  font-weight: bold;
+  display: block;
+}
+
+school_info gpa::before {
+  content: 'GPA: ';
+}
+
+school_info enrollment_date::before {
+  content: 'Enrollment Date: ';
+}
+
+school_info grad_date::before {
+  content: 'Graduation Date: ';
+}
+
+gpa, enrollment_date, grad_date {
+  display: block;
+  margin-left: 20px;
+  margin-top: 5px;
+}
