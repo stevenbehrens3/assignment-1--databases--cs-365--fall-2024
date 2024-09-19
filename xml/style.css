@@ -39,12 +39,18 @@ name middle_name::after {
   content: ' ';
 }
 
+name last_name::after {
+  content: ' ';
+  display: block;
+}
+
 name perf_name::before {
-  content: 'Preffered Name: ';
+  content: 'Prefered Name: ';
 }
 
 name perf_name::after {
   content: ' ';
+  display: block;
 }
 
 name {
@@ -97,12 +103,6 @@ major, minor, advisor, id {
   display: block;
   margin-left: 20px;
   margin-top: 5px;
-}
-
-school_info::after {
-  content: 'Academic Information: ';
-  font-weight: bold;
-  display: block;
 }
 
 school_info gpa::before {
