@@ -42,7 +42,7 @@
         "school_info": {
           "id": "4567890",
           "gpa": "3.0",
-          "major": ["Philosophy"],
+          "major": "Philosophy",
           "minor": "Music",
           "advisor": "Chris Cornell",
           "enrollment_date": "08-25-1978",
@@ -68,7 +68,7 @@
         "school_info": {
           "id": "8302438",
           "gpa": "2.0",
-          "major": ["Music"],
+          "major": "Music",
           "minor": "Criminal Justice",
           "advisor": "Axl Rose",
           "enrollment_date": "08-25-1983",
