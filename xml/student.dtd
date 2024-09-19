@@ -3,7 +3,8 @@
 <!ELEMENT student (name, contact, school_info)>
 <!ELEMENT name (first_name, middle_name, last_name, perf_name)>
 <!ELEMENT contact (email, phone)>
-<!ELEMENT school_info (id, year, gpa, major, minor, status, advisor, enrollment_date, grad_date)>
+<!ELEMENT school_info (id, year, gpa, major+, minor*, status, advisor, enrollment_date, grad_date)>
+
 
 <!ELEMENT first_name (#PCDATA)>
 <!ELEMENT middle_name (#PCDATA)>
@@ -12,11 +13,13 @@
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT phone (#PCDATA)>
 <!ELEMENT id (#PCDATA)>
-<!ELEMENT year (#PCDATA)>
 <!ELEMENT gpa (#PCDATA)>
 <!ELEMENT major (#PCDATA)>
 <!ELEMENT minor (#PCDATA)>
-<!ELEMENT status (#PCDATA)>
 <!ELEMENT advisor (#PCDATA)>
 <!ELEMENT enrollment_date (#PCDATA)>
 <!ELEMENT grad_date (#PCDATA)>
+
+<!ATTLIST school_info year (First-Year|Second-Year|Third-Year|Fourth-Year|Other) #REQUIRED>
+<!ATTLIST school_info status (Full-Time|Part-Time|Graduated|Withdrawn) #REQUIRED>
+
